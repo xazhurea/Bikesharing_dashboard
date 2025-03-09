@@ -14,8 +14,8 @@ df = load_data()
 
 # Sidebar
 st.sidebar.header("Filter Tanggal")
-date_range = st.sidebar.date_input("Pilih Rentang Tanggal", (df['dteday'].min(), df['dteday'].max()))
-start_date, end_date = date_range
+start_date = st.sidebar.date_input("Tanggal Mulai", df['dteday'].min())
+end_date = st.sidebar.date_input("Tanggal Akhir", df['dteday'].max())
 
 # Filter data berdasarkan tanggal
 filtered_df = df[(df['dteday'] >= str(start_date)) & (df['dteday'] <= str(end_date))]
