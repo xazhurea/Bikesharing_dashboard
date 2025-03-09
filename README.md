@@ -1,6 +1,6 @@
 # Dashboard Bike Sharing
 
-[E-Commerce Data Dashboard Streamlit App](https://e-commerce-data-analyst.streamlit.app/)
+[E-Commerce Data Dashboard Streamlit App](https://bikesharing-dashboard-fa.streamlit.app/)
 
 ## Overview
 Proyek ini adalah dashboard interaktif yang dibangun menggunakan Streamlit untuk menganalisis data penyewaan sepeda. Dashboard ini menyediakan berbagai visualisasi dan analisis, termasuk pola peminjaman berdasarkan waktu dan kondisi cuaca
@@ -29,9 +29,8 @@ Untuk macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
 ```
-Untuk macOS/Linux:
-```
 5. Menjalankan dashboard:
+```
 streamlit run dashboard/dashboard.py
 ```
 
